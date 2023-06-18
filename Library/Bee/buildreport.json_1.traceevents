@@ -1,0 +1,695 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681745246115890, "dur": 463750, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681745246119416, "dur": 9596, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681745246129016, "dur": 435842, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681745246564859, "dur": 14779, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681745246580098, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681745246158548, "dur":874, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246159438, "dur":131, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681745246159597, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681745246159626, "dur":688, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681745246160344, "dur":942, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246161286, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246543731, "dur":457, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544188, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544211, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544215, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544224, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544226, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544233, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544235, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544241, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544244, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544250, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544252, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544258, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544260, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544266, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544268, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544276, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544277, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544283, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544285, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544292, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544294, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544303, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544306, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544314, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544336, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246544341, "dur":1401, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681745246161531, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246161532, "dur":4364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246165897, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681745246165991, "dur":381, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246166378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246168299, "dur":16338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681745246184692, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1681745246184800, "dur":2286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246187095, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246187102, "dur":15862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1681745246203045, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246203069, "dur":6306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246209382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246209390, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246211162, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246211181, "dur":695, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246211888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246211900, "dur":6376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246218298, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246218321, "dur":501, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246218835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246218846, "dur":5594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246224460, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246224475, "dur":1493, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246225986, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246226000, "dur":12710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246238730, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246238747, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246239097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246239107, "dur":59427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246298552, "dur":90981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246389534, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246389597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246389605, "dur":8286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246397906, "dur":144738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246542646, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246542719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681745246542727, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681745246543676, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1681745246543678, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246161265, "dur":46, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246161311, "dur":4173, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246165494, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1681745246165496, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246165521, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1681745246165524, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246165554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246166129, "dur":3670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1681745246169803, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681745246169872, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246169904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246181952, "dur":18367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681745246200578, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246200613, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246200676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246200745, "dur":7973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246208739, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246208757, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246208820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246208827, "dur":4727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246213578, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246213601, "dur":434, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246214052, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246214065, "dur":5577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246219669, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246219705, "dur":450, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246220170, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246220182, "dur":5376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246225575, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246225627, "dur":843, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246226480, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246226490, "dur":8543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246235190, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246235218, "dur":402, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246235626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246235633, "dur":7093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246242740, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246242757, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246242880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246242886, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246245567, "dur":258789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246504359, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246504470, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681745246504484, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681745246505940, "dur":37824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246161345, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246161346, "dur":4677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246166025, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1681745246166143, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246166435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246168302, "dur":15106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1681745246183461, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1681745246183510, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246183538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246183545, "dur":3220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1681745246186827, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1681745246186884, "dur":1451, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246188345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246188576, "dur":25602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1681745246214276, "dur":226868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681745246441145, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246441195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681745246441203, "dur":1001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681745246442222, "dur":101522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246161396, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246161397, "dur":4470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246165869, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681745246166034, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246166236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246168432, "dur":18094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681745246186610, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor.exe" }}
+,{ "pid":12345, "tid":4, "ts":1681745246186634, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246186660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246186666, "dur":16008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor.exe" }}
+,{ "pid":12345, "tid":4, "ts":1681745246202692, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246202719, "dur":458, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246203186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246203195, "dur":12028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246215258, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246215278, "dur":694, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246216015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246216022, "dur":10890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246226935, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246226955, "dur":1218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246228183, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246228194, "dur":4343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246232563, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246232578, "dur":1062, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246233653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246233664, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246235926, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246235944, "dur":1758, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246237713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246237792, "dur":5879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246243689, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246243704, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246243894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246243901, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246245893, "dur":127419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246373314, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246373380, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246373390, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246374916, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246374934, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246374965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246374973, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246376174, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246376192, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246376252, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246376261, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246378374, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246378394, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246378422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246378428, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246379707, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246379727, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246379761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246379769, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246380758, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246380781, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246380811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246380818, "dur":3893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246384734, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246384756, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246384788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246384798, "dur":4819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246389637, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246389659, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246389690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246389755, "dur":4498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246394268, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246394283, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246394409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246394418, "dur":22974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681745246417717, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681745246417771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246417780, "dur":5156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681745246422949, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681745246422972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246422976, "dur":5533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681745246428522, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1681745246428686, "dur":484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246429329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681745246429338, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1681745246430691, "dur":113044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246162143, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246162144, "dur":3350, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246165495, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1681745246165647, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246165702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246180917, "dur":3130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1681745246184151, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246184328, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246184363, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246185504, "dur":14274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246199920, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246199962, "dur":403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246200377, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246200393, "dur":7465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246207877, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246207898, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246208017, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246208027, "dur":5568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246213612, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246213635, "dur":441, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246214082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246214089, "dur":8232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246222345, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246222365, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246222392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246222399, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246225371, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246225395, "dur":1019, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246226426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246226437, "dur":4740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246231193, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246231210, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246231421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246231429, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246235423, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246235440, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246235466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246235472, "dur":6608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246242102, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246242126, "dur":500, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246242633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246242643, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246244813, "dur":136228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246381043, "dur":2991, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246384091, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246384101, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246387477, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246387503, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246387554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246387565, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246389654, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246389670, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246389735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246389741, "dur":4184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246393947, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246393988, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246394080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246394089, "dur":4133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246398241, "dur":79315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246477557, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246477645, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681745246477656, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681745246478739, "dur":65009, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246161543, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246161543, "dur":4316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246165861, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1681745246165984, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246166247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246182701, "dur":1551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1681745246184320, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246184371, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246184399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246185661, "dur":30912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246216667, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246216707, "dur":947, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246217664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246217673, "dur":6123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246223816, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246223838, "dur":412, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246224258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246224267, "dur":17884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246242169, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246242195, "dur":428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246242635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246242643, "dur":5737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246248400, "dur":142036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246390438, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246390690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246390699, "dur":4343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246395064, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246395083, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246395157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246395165, "dur":11853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681745246407037, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1681745246407070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246407088, "dur":7391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1681745246414504, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1681745246414538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246414546, "dur":2407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1681745246416987, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1681745246417010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246417016, "dur":4741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1681745246421771, "dur":628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1681745246422412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681745246422420, "dur":7722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/level2.resS" }}
+,{ "pid":12345, "tid":6, "ts":1681745246430156, "dur":113575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246161498, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246161498, "dur":4524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246166023, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1681745246166148, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246166278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246168328, "dur":15061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1681745246183454, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1681745246183511, "dur":6559, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246190078, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246190089, "dur":5259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1681745246195786, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246195810, "dur":6627, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246202453, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246202468, "dur":13095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246215602, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246215625, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246215976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246216028, "dur":7143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246223193, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246223213, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246223247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246223254, "dur":5351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246228651, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246228675, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246229031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246229037, "dur":5461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246234515, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246234532, "dur":18, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246234591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246234597, "dur":4243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246238861, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246238874, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246239147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246239152, "dur":58489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246297659, "dur":1223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246298882, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246298938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246298947, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246300343, "dur":2235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246302580, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246302644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246302652, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246304914, "dur":7592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246312507, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246312565, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246312573, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246313507, "dur":46753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246360261, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246360324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246360332, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246361381, "dur":1113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246362495, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246362588, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246362597, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246364337, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246364361, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246364391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246364398, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246365604, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246365619, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246365647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246365654, "dur":7802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246373476, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246373492, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246373522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246373527, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246375572, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246375595, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246375621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246375628, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246377459, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246377533, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246377568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246377577, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246380738, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246380789, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246380819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246380824, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246382407, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246382425, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246382457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246382466, "dur":3326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246385815, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246385836, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246385866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246385875, "dur":3774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246389667, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246389684, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246389759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246389765, "dur":8601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681745246398386, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1681745246398547, "dur":19470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246418029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246418872, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1681745246420565, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1681745246420595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246420602, "dur":5932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1681745246426548, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1681745246426568, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681745246426573, "dur":3756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1681745246430343, "dur":113423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246161962, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246161963, "dur":3732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246165696, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1681745246165831, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246165877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246180984, "dur":3341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1681745246184387, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681745246184460, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246184486, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246184489, "dur":51813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681745246236381, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681745246236413, "dur":1299, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246237796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246237803, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681745246243095, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681745246243110, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246243284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246243291, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681745246245590, "dur":191684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681745246437276, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246437736, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681745246437751, "dur":3414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681745246441183, "dur":102554, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246161617, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246161617, "dur":4035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246165653, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1681745246165701, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246165730, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246180949, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1681745246183460, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1681745246183511, "dur":6293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246189816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246189858, "dur":5851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1681745246195769, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246195797, "dur":5472, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246201451, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246201470, "dur":9597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246211082, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246211096, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246211124, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246211129, "dur":6531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246217679, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246217698, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246217858, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246217863, "dur":5493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246223374, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246223485, "dur":707, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246224203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246224219, "dur":13003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246237264, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246237284, "dur":424, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246237766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246237775, "dur":62022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246299817, "dur":3000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246302818, "dur":676, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246303507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246303517, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246304705, "dur":87561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246392268, "dur":1484, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246393767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246393782, "dur":4289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681745246415823, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1681745246415890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246415899, "dur":3060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1681745246418976, "dur":1151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1681745246420129, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246420177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246420185, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1681745246422814, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1681745246422834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246422840, "dur":3516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/level2" }}
+,{ "pid":12345, "tid":9, "ts":1681745246426369, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1681745246426394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246426436, "dur":2017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/level0.resS" }}
+,{ "pid":12345, "tid":9, "ts":1681745246428473, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1681745246428494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681745246428500, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1681745246429710, "dur":114017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246161853, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246161854, "dur":4000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246165856, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1681745246166003, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246166158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246168402, "dur":15020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1681745246183479, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1681745246183517, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246183537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246183545, "dur":4499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1681745246188120, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246188150, "dur":362, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246188519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246188669, "dur":9097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246197789, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246197824, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246197852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246197860, "dur":5960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246203835, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246203856, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246204062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246204072, "dur":10568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246214669, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246214695, "dur":1056, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246215760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246215771, "dur":4711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246220503, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246220522, "dur":735, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246221370, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246221381, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246224329, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246224346, "dur":846, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246225200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246225210, "dur":5195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246230430, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246230450, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246230629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246230637, "dur":4545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246235207, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246235224, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246235359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246235366, "dur":6960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246242348, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246242364, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246242633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246242643, "dur":4194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246246854, "dur":285866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246532722, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246532797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681745246532807, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681745246534402, "dur":9339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246161742, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246161743, "dur":3749, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246165495, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1681745246165611, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246165674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246169321, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1681745246170761, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1681745246170825, "dur":10428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246181261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246181718, "dur":11736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1681745246193666, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246193692, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246193725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246193745, "dur":7018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246200796, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246200833, "dur":1340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246202191, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246202207, "dur":9484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246211720, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246211754, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246211891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246211900, "dur":4151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246216082, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246216100, "dur":1444, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246217563, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246217576, "dur":4948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246222545, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246222564, "dur":1133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246223705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246223715, "dur":4899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246228646, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246228669, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246228990, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246229000, "dur":3010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246232028, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246232045, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246232120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246232127, "dur":2609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246234753, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246234768, "dur":314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246235091, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246235101, "dur":6246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246241370, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246241385, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246241635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246241644, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246244508, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246244524, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246244553, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246244560, "dur":11693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246256272, "dur":132840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246389114, "dur":689, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246389809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246389815, "dur":8037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246397873, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246397890, "dur":12979, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246410880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246410891, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681745246412329, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":11, "ts":1681745246412352, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246412361, "dur":4517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":11, "ts":1681745246416902, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1681745246416926, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246416934, "dur":3862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1681745246420821, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1681745246420841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246420847, "dur":5223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1681745246426091, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1681745246426118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681745246426126, "dur":3104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1681745246429247, "dur":114486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246161946, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246161947, "dur":3543, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246165494, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1681745246165597, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246165636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246168299, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1681745246169896, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1681745246169941, "dur":10968, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246180919, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246181272, "dur":15157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1681745246196518, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246196548, "dur":2882, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246199450, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246199467, "dur":9561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246209044, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246209067, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246209094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246209100, "dur":1852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246210974, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246210993, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246211030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246211037, "dur":4610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246215791, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246215814, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246215845, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246215850, "dur":18596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246234472, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246234509, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246234537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246234546, "dur":4251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246238814, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246238829, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246239110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246239116, "dur":6543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246245683, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246245697, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246245727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246245735, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246247332, "dur":31379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246278712, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246278770, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246278778, "dur":18566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246297370, "dur":90749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246388122, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246388419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246388430, "dur":3117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246391572, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246391601, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246391647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246391658, "dur":26927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681745246418600, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1681745246418839, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246418882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246418889, "dur":8840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1681745246427745, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles APK JAdi/Rock Paper Scissor_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1681745246427766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681745246427773, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"APK JAdi/Rock Paper Scissor_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1681745246430636, "dur":113088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681745246546764, "dur":2417, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681745246580197, "dur": 950, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681745246580077, "dur": 1108, "ph": "X", "name": "Write chrome-trace events", "args": {} },
